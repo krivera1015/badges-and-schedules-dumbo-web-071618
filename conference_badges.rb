@@ -12,10 +12,7 @@ end
 #end
 
 def batch_badge_creator(array_of_names
-  for names in array_of_names  do 
+  for names in array_of_names  do
   puts "Hello, my name is #{name}."
 end
 end
-
-
-
