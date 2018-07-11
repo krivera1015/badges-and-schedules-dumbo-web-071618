@@ -8,5 +8,3 @@ def batch_badge_creator(array_of_names)
     return "Hello, my name is #{name}."
   end
 end
-
-  
