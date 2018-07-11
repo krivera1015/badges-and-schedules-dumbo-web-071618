@@ -30,8 +30,8 @@ def assign_rooms(array_of_speakers)
   return array_assignment
 end
 
-def printer
-  assign_rooms.each do |rooms|
+def printer(attendees)
+  assign_rooms.each do |rooms| 
     puts ""
   end
 end
