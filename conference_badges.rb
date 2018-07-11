@@ -21,3 +21,11 @@ end
 end
 =end
 
+def assign_rooms(array_of_speakers)
+  #speakers going into rooms 1-7
+  array_assignment = []
+  array_of_speakers.each_with_index |speaker, number| do
+    array_assignment.push("Hello, #{speaker}! You'll be assigned to room #{number}!")
+  end
+  return array_assignment
+end
