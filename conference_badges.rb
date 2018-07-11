@@ -11,7 +11,7 @@ end
   #return array_of_messages
 #end
 
-def batch_badge_creator(array_of_names
+def batch_badge_creator(array_of_names)
   for names in array_of_names  do
   puts "Hello, my name is #{name}."
 end
