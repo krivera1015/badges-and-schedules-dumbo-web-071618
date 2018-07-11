@@ -29,3 +29,9 @@ def assign_rooms(array_of_speakers)
   end
   return array_assignment
 end
+
+def printer
+  assign_rooms.each do |rooms|
+    puts ""
+  end
+end
