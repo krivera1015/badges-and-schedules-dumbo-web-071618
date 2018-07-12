@@ -38,3 +38,5 @@ def printer(attendees)
     puts attendee
   end
 end
+
+#i can call a method inside a method but the argument would be the same argument passed from the new method
